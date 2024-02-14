@@ -1,4 +1,4 @@
-# For TR team
+# For CM team
 Docs for translation
 
 tests/**test_image.py**  RU→EN,ES
@@ -9,13 +9,13 @@ tests/**test_container.py** RU→EN,ES
 
 tests/**conftest.py** RU→EN,ES
 
-python-docker-1/README.MD RU→EN,ES
+python-docker-1/**README.MD** RU→EN,ES
 
-simple_project/manage.py EN->ES
+simple_project/**manage.p**y EN->ES
 
-simple_project/simple_project/wsgi.py EN->ES
+simple_project/simple_project/**wsgi.py** EN->ES
 
-simple_project/simple_project/urls.py EN->ES
+simple_project/simple_project/**urls.py** EN->ES
 
 
 
