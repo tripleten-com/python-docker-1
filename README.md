@@ -1,13 +1,23 @@
 # For TR team
-tests/**test_image.py**  RU→EN
+Docs for translation
 
-tests/**test_env_vars.py** RU→EN
+tests/**test_image.py**  RU→EN,ES
 
-tests/**test_container.py** RU→EN
+tests/**test_env_vars.py** RU→EN,ES
 
-tests/**conftest.py** RU→EN
+tests/**test_container.py** RU→EN,ES
 
-python-docker-1/README.MD RU→EN
+tests/**conftest.py** RU→EN,ES
+
+python-docker-1/README.MD RU→EN,ES
+
+simple_project/manage.py EN->ES
+
+simple_project/simple_project/wsgi.py EN->ES
+
+simple_project/simple_project/urls.py EN->ES
+
+
 
 
 # python-docker-1
