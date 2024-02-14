@@ -1,3 +1,15 @@
+# For TR team
+tests/**test_image.py**  RU→EN
+
+tests/**test_env_vars.py** RU→EN
+
+tests/**test_container.py** RU→EN
+
+tests/**conftest.py** RU→EN
+
+python-docker-1/README.MD RU→EN
+
+
 # python-docker-1
 
 ## Создание репозитория
