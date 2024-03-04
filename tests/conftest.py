@@ -20,16 +20,16 @@ def image(client):
         return image
     except errors.ImageNotFound:
         raise AssertionError(
-            f"Убедитесь, что вы собрали образ `{LOCAL_IMAGE_NAME}`"
+            f"Make sure you've built the ` {LOCAL_IMAGE_NAME}` image"
         )
 
 
 @pytest.fixture
 def container(client):
-    containers = client.containers.list(filters={"ancestor": LOCAL_IMAGE_NAME}, limit=1)  # берём самый последний контейнер
+    containers = client.containers.list(filters={"ancestor": LOCAL_IMAGE_NAME}, limit=1)  # take the very last container
     if not containers:
         raise AssertionError(
-            f"Убедитесь, что вы запустили контейнер из образа `{LOCAL_IMAGE_NAME}`"
+            f"Make sure you are running the container from the ` {LOCAL_IMAGE_NAME}` image"
         )
 
     return containers[0]
@@ -42,5 +42,5 @@ def volume(client):
         return volume
     except errors.NotFound:
         raise AssertionError(
-            f"Убедитесь, что вы создали том `{VOLUME_NAME}`"
+            f"Make sure you've created the ` {VOLUME_NAME}` volume"
         )
